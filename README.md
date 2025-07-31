@@ -15,9 +15,10 @@ This repository contains a collection of useful scripts for system administratio
 ### PowerShell Scripts (`powershell_scripts/`)
 
 *Note: To run a powershell Script without fully disabling the protection use:*
-*- powershell -ExecutionPolicy ByPass -File /path/to/file.ps1*
-*Use with caution—bypassing security checks could expose your system to malicious code if you’re not 100% sure of the script's source.*
 
+- *powershell -ExecutionPolicy ByPass -File /path/to/file.ps1*
+
+*IMPORTANT: Use with caution—bypassing security checks could expose your system to malicious code if you’re not 100% sure of the script's source.*
 
 - **open_ms_edge_in_fullscreen.ps1**  
   Launches Microsoft Edge in fullscreen (kiosk) mode. Ideal for kiosk setups or digital signage scenarios.
